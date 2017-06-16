@@ -6,9 +6,10 @@ def random
 end
 
 ran = random
-if ran == true
+
+if ran
   puts 'sí'
-elsif ran == false
+elsif ran
   puts 'no'
 else
   puts ran
